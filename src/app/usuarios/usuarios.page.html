@@ -1,6 +1,14 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>usuarios</ion-title>
+  <ion-toolbar color="dark">
+
+    <ion-buttons slot="start">
+      <ion-button> Start </ion-button>
+    </ion-buttons>
+    <ion-title>Lista de usuarios</ion-title>
+    <ion-buttons slot="primary" (click)="addUsuarios()">
+      <ion-button>Novo</ion-button>
+      <ion-icon slot="end" name="add"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
